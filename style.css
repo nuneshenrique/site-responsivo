@@ -3,9 +3,10 @@ padding:0px;
 margin:0px;
 }
 :root{/*seletor raiz para variavéis*/
---cor-de-fundo:#0c00f6f2;
+--cor-de-fundo:#1660d89b;
     --cor-da-letra:#0d010100;
 }
 body{/*seletor body*/
 background-color:var(--cor-de-fundo)
 }
+.cabecalho{}
