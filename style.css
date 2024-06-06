@@ -1,3 +1,14 @@
-:root{
-    --cor-de-fundo:with
+*{/*seletor universal para resetar as bordas da pagina*/
+padding:0px;
+margin:0px;
+}
+:root{/*seletor raiz para variavéis*/
+--cor-de-fundo:#0c00f6f2;
+    --cor-da-letra:#0d010100;
+}
+body{/*seletor body*/
+background-color:var(--cor-de-fundo)
+}
+h1{
+    background-color: aquamarine;
 }
