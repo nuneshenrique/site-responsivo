@@ -1,12 +1,19 @@
-*{/*seletor universal para resetar as bordas da pagina*/
-padding:0px;
-margin:0px;
+@import url("style/header.css");
+
+* {/*seletor universal para resetar as bordas da pagina*/
+    padding: 0px;
+    margin: 0px;
 }
-:root{/*seletor raiz para variavéis*/
---cor-de-fundo:#0e03d79b;
-    --cor-da-letra:#0d010100;
+
+:root {
+    /*seletor raiz para variavéis*/
+    --cor-de-fundo: #0e03d79b;
+    --cor-da-letra: #0d010100;
 }
-body{/*seletor body*/
-background-color:var(--cor-de-fundo)
-}
-.cabecalho{}
+
+
+    
+    body {
+        /*seletor body*/
+        background-color: var(--cor-de-fundo);
+    }
